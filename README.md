@@ -1,2 +1,9 @@
-# meusGastos_frontend
-Aplicação com o Gabriel Silva para ajuda em sua jornada rumo a programação 
+# Projeto meus gastos
+
+## TODO
+
+- [ ] Criar tela de login;
+- [ ] Criar tela de cadastro;
+- [ ] Criar tela home;
+- [ ] Criar tela de adicionar gastos;
+- [ ] Criar tela de adicionar ganhos.
