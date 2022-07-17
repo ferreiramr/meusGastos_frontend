@@ -1,0 +1,11 @@
+.addValor{
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+}
+
+.addValor h1{
+    font-size: 150px;
+    color: #00c5df;
+    margin: 0;
+}

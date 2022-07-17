@@ -1,0 +1,17 @@
+#botao-buttun{
+    display: block;
+    margin: 35px auto 7px auto;
+    width: 120px;
+    padding: 8px 0;
+    border-radius: 30px;
+    color: #ffffff;
+    background: #00c5df;
+    border: #00c5df;
+    font-size: 15px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+#botao-buttun:hover{
+    background: #000000;
+}

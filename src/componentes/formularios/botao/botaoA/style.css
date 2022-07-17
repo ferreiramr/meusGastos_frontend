@@ -1,0 +1,11 @@
+#botao-a{
+    font-size: 15px;
+    font-weight: bold;
+    color: #00c5df;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+#botao-a:hover {
+    color: #000000;
+}

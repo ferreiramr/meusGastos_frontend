@@ -1,0 +1,45 @@
+.resultados{
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    justify-items: center;
+}
+
+.selecaoPeriodo{
+    display: block;
+    font-size: 17px;
+    font-weight: bold;
+    border: none;
+    padding: 3px;
+    margin: 40px auto 40px auto;
+    color: #00c5df;
+    text-align: center;
+}
+
+#grafico{
+    width: 250px;
+    height: 250px;
+    background: #00c5df;
+    border-radius: 360px;
+    margin: 0 auto;
+    display: inline-block;
+}
+
+#resultadoPositivo{
+    font-weight: bold;
+    color: #00c5df;
+    vertical-align: top;
+    display: inline-block;
+}
+
+#resultadoNegativo{
+    font-weight: bold;
+    color: #df0000;
+    vertical-align: top;
+    display: inline-block;
+}
+
+#resultadoTotal{
+    font-weight: bold;
+    color: #00c5df;
+}

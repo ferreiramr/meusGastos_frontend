@@ -1,0 +1,29 @@
+#box-botao-inferior{
+    display: grid;
+    grid-row: 2;
+    align-items: center;
+    justify-items: center;
+}
+
+#botoes-inferiores5428{
+    width: 300px;
+    height: 50px;
+    display: grid;
+    border-radius: 25px;
+    align-items: center;
+    justify-items: center;
+    background: white;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.botaoGanhos:hover{
+    background: rgb(209, 209, 209);    
+}
+
+@media (max-width: 650px) {
+    #box-botao-inferior{
+        grid-row: auto; 
+    }
+}

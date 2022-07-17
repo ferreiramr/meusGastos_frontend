@@ -1,0 +1,7 @@
+.botoesAdicionar{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    grid-row: 12/16;
+    background: #00c5df;
+}
