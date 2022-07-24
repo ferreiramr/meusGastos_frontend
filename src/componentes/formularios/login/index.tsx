@@ -2,12 +2,16 @@ import BotaoButtun from '../botao/botaoButton';
 import Input from '../input/index';
 import BotaoA from '../botao/botaoA';
 
-export default function formLogin(){
+interface Props{
+    onClick: () => void;
+}
+
+export default function formLogin(props: Props){
     return (
         <form action="" method='post'>
             <Input tipo="text" nomeInput="login"/>
             <Input tipo="password" nomeInput="senha"/>
-            <BotaoButtun texto="Entrar"/>
+            <BotaoButtun onClick={props.onClick} texto="Entrar"/>
             <BotaoA url="./cadastro" texto="Cadastrar"/>
         </form> 
     )

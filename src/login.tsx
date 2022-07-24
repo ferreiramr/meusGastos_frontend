@@ -3,9 +3,14 @@ import "./login.css";
 import FormLogin from './componentes/formularios/login/index';
 import axios from 'axios';
 
+//essa função deve ser substituida por um requisição a API de Login.
+function arrumarDepois(){
+    console.log("Função Tampa Buraco")
+}
+
 export default function Login(){
 
-    const [respostaApi, setRespostaApi ] = useState([]);
+    /*const [respostaApi, setRespostaApi ] = useState([]);
 
     useEffect(() => {
         axios.get("https://api.adviceslip.com/advice")
@@ -15,13 +20,12 @@ export default function Login(){
         .catch( () => {
             console.log("Não deu certo!");
         })
-    }, []);
+    }, []);*/
     
         return(
             <main className='mainForm'>
                 <img src="./logo512.png" alt="Logo"/>
-                <h1>{respostaApi}</h1>
-                <FormLogin/>
+                <FormLogin onClick={arrumarDepois}/>
             </main>
         )
 }
